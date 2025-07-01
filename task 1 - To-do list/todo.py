@@ -68,7 +68,7 @@ scrollbar.config(command=task_list.yview)
 # ------------------- Buttons -------------------
 def edit_task():
     try:
-        index = task_list.curselection()[0]
+        index = task_list.curselection()[0]  
         new_text = task_input.get()
         if new_text.strip():
             task_list.delete(index)
