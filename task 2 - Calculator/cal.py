@@ -5,7 +5,7 @@ from tkinter import messagebox
 
 def button_click(value):
     current = display_var.get()
-    if current == "0" or current == "Error":
+    if current == "0" or current == "Error": 
         display_var.set(str(value))
     else:
         display_var.set(current + str(value))

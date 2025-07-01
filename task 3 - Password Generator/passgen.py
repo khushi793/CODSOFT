@@ -9,7 +9,7 @@ class SecureKeyMaker:
         self.symbols = "!@#$%^&*()_+-=[]{}|;:,.<>?"
 
     def create_single_password(self, size=12, caps=True, nums=True, special=True):
-        pool = self.lower
+        pool = self.lower   
         must_include = [random.choice(self.lower)]
 
         if caps:

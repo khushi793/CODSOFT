@@ -11,7 +11,7 @@ def create_entry():
 
     entry = {
         "name": full_name,
-        "phone": mobile,
+        "phone": mobile,   
         "email": mail,
         "address": location
     }
